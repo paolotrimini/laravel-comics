@@ -14,34 +14,17 @@
 </head>
 <body>
 
-    {{-- header--}}
+
     @include('components.header')
     @yield('content')
 
 
-    <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
-
-    <div id="card">
-        <div class="container">
-            <div class="main-box">
-                @foreach($data as $comics)
-                    <div class="col-lg-2">
-                        <div class="box-card">
-                            <div class="box-image">
-                                <img src="{{$comics['thumb']}}" alt="">
-                            </div>
-                            <div class="box-text">
-                                <p>{{$comics['series']}}</p>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
+  {{--  <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">--}}
 
 
-    {{--footer --}}
+
+
+
     @include('components.footer')
 
 
