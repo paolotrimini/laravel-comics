@@ -93,32 +93,25 @@ header .bottom-header ul li a {
   padding: 40px;
   background: #1c1c1c;
   color: white;
-  display: flex;
-  overflow-x: hidden;
 }
 
-#card .box-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#card .box-main .box-card .box-image {
-  width: 110px;
+#card .box-card .box-image {
   height: 180px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
-#card .box-main .box-card .box-image img {
+#card .box-card .box-image img {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#card .box-main .box-card .box-text p {
+#card .box-card .box-text p {
   font-size: 12px;
   text-align: left;
   display: inline-block;
   color: white;
-  transform: translateY(10px);
   text-transform: uppercase;
 }
 

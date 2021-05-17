@@ -4,19 +4,13 @@
     padding: 40px;
     background: #1c1c1c;
     color: white;
-    display: flex;
-    overflow-x: hidden;
-
-    .box-main {
-
-        display: flex;
-        flex-wrap: wrap;
 
         .box-card {
 
             .box-image {
-                width: 110px;
                 height: 180px;
+                overflow: hidden;
+                margin-bottom: 10px;
 
                 img {
                     max-width: 100%;
@@ -31,14 +25,13 @@
                     text-align: left;
                     display: inline-block;
                     color: white;
-                    transform: translateY(10px);
                     text-transform: uppercase;
                 }
             }
 
         }
 
-    }
+
 
 
 

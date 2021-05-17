@@ -23,8 +23,8 @@
 
     <div id="card">
         <div class="container">
-            <div class="box-main">
                 @foreach($data as $comics)
+                    <div class="col-lg-2">
                         <div class="box-card">
                             <div class="box-image">
                                 <img src="{{$comics['thumb']}}" alt="">
@@ -33,8 +33,8 @@
                                 <p>{{$comics['series']}}</p>
                             </div>
                         </div>
+                    </div>
                 @endforeach
-            </div>
         </div>
     </div>
 
