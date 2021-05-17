@@ -1,7 +1,10 @@
     @extends('layouts.main-layout')
 
+
     @section('content')
-        <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+        <div class="box-jumbo">
+            <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+        </div>
         <div id="card">
             <div class="container">
                 <div class="main-box">

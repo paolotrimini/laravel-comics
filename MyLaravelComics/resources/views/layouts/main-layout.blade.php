@@ -14,25 +14,9 @@
 </head>
 <body>
 
-
     @include('components.header')
     @yield('content')
-
-
-  {{--  <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">--}}
-
-
-
-
-
     @include('components.footer')
-
-
-
-
-
-
-
 
 </body>
 </html>
