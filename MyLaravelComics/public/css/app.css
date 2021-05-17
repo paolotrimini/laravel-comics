@@ -95,19 +95,24 @@ header .bottom-header ul li a {
   color: white;
 }
 
-#card .box-card .box-image {
+#card .main-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#card .main-box .box-card .box-image {
   height: 180px;
   overflow: hidden;
   margin-bottom: 10px;
 }
 
-#card .box-card .box-image img {
+#card .main-box .box-card .box-image img {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#card .box-card .box-text p {
+#card .main-box .box-card .box-text p {
   font-size: 12px;
   text-align: left;
   display: inline-block;

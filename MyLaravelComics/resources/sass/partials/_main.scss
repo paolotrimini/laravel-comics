@@ -5,35 +5,38 @@
     background: #1c1c1c;
     color: white;
 
-        .box-card {
+        .main-box {
 
-            .box-image {
-                height: 180px;
-                overflow: hidden;
-                margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
 
-                img {
-                    max-width: 100%;
-                    object-fit: cover;
+            .box-card {
+
+                .box-image {
+                    height: 180px;
+                    overflow: hidden;
+                    margin-bottom: 10px;
+
+                    img {
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
                 }
-            }
 
-            .box-text {
+                .box-text {
 
-                p {
-                    font-size: 12px;
-                    text-align: left;
-                    display: inline-block;
-                    color: white;
-                    text-transform: uppercase;
+                    p {
+                        font-size: 12px;
+                        text-align: left;
+                        display: inline-block;
+                        color: white;
+                        text-transform: uppercase;
+                    }
                 }
+
             }
 
         }
-
-
-
-
 
 
 }

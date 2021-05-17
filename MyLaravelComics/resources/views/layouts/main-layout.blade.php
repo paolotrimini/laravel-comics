@@ -23,6 +23,7 @@
 
     <div id="card">
         <div class="container">
+            <div class="main-box">
                 @foreach($data as $comics)
                     <div class="col-lg-2">
                         <div class="box-card">
@@ -35,6 +36,7 @@
                         </div>
                     </div>
                 @endforeach
+            </div>
         </div>
     </div>
 
