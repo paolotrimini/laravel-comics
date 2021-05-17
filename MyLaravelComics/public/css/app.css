@@ -35,18 +35,58 @@ a {
   font-size: 13px;
 }
 
+header .top-header {
+  background-color: #1785f5;
+}
+
+header .top-header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .top-header ul li {
+  margin-right: 50px;
+}
+
+header .top-header ul li a {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: white;
+}
+
+header .top-header ul li i {
+  color: white;
+  margin-left: 3px;
+}
+
 header .bottom-header {
   /*debug*/
   /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+header .bottom-header .box-logo img {
+  width: 35px;
 }
 
 header .bottom-header ul {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 header .bottom-header ul li {
   margin: 0 10px;
+}
+
+header .bottom-header ul li a {
+  color: grey;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 footer {
