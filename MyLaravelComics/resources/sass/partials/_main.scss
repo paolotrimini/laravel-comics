@@ -58,6 +58,36 @@
             margin-top: 50px;
             margin-right: 30px;
 
+            .box-line {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 13px;
+                color: white;
+
+                .box-price {
+                    background-color: #55ba59;
+                    height: 50px;
+                    margin: 10px 0;
+                    padding: 0 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 70%;
+                }
+
+                .box-check {
+                    background-color: #55ba59;
+                    height: 50px;
+                    width: 30%;
+                    border-left: 1px solid gray;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+            }
+
             .box-title {
                 h1 {
                     font-size: 24px;
@@ -65,11 +95,7 @@
                     margin-bottom: 20px;
                 }
             }
-            .box-line {
-                background-color: #55ba59;
-                height: 50px;
-                margin: 10px 0;
-            }
+
 
             .box-description {
 

@@ -141,16 +141,39 @@ header .bottom-header ul li a {
   margin-right: 30px;
 }
 
+.single-page .box-comic .box-info .box-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: white;
+}
+
+.single-page .box-comic .box-info .box-line .box-price {
+  background-color: #55ba59;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.single-page .box-comic .box-info .box-line .box-check {
+  background-color: #55ba59;
+  height: 50px;
+  width: 30%;
+  border-left: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .single-page .box-comic .box-info .box-title h1 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-}
-
-.single-page .box-comic .box-info .box-line {
-  background-color: #55ba59;
-  height: 50px;
-  margin: 10px 0;
 }
 
 .single-page .box-comic .box-info .box-description p {

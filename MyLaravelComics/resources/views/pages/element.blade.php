@@ -10,8 +10,15 @@
                         <div class="box-title">
                             <h1>{{ $elem['title'] }}</h1>
                         </div>
+                        {{-- HEADER BOX COMIC --}}
                         <div class="box-line">
-                            <p>U.S. Price: {{ $elem['price'] }}</p>
+                            <div class="box-price">
+                                <p>U.S. Price: {{ $elem['price'] }}</p>
+                                <p>Available</p>
+                            </div>
+                            <div class="box-check">
+                                <p>Check Availability <i class="fas fa-sort-down"></i></p>
+                            </div>
                         </div>
                         <div class="box-description">
                             <p>{{ $elem['description'] }}</p>
