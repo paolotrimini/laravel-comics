@@ -124,6 +124,10 @@ header .bottom-header ul li a {
 
 /* ELEMENT PAGE */
 
+.single-page {
+  /* TALENT e SPECS */
+}
+
 .single-page .box-blue {
   height: 60px;
   background-color: #0282f9;
@@ -200,10 +204,15 @@ header .bottom-header ul li a {
 }
 
 .single-page .box-info-2 {
-  height: 300px;
   background-color: #f6f6f6;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+}
+
+.single-page .box-info-2 .box-ts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 footer {

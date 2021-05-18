@@ -37,19 +37,24 @@
             {{-- INFO--}}
             <div class="box-info-2">
                 <div class="container">
-                    <div class="box-talent">
-                        <h2>Talent</h2>
-                        <p>Art by:</p>
-                        @foreach ($elem['artists'] as $art)
-                            <a href="">
-                                {{ $art }}
-                                {{ !$loop->last ? ',' : '' }}
-                            </a>
-                        @endforeach
-                    </div>
-                    <div class="box-specs">
-                        <h2>specs</h2>
-                        <p>Written by:</p>
+                    <div class="box-ts">
+                        <div class="box-talent">
+                            <h2>Talent</h2>
+                            <p>Art by:</p>
+                            @foreach ($elem['artists'] as $art)
+                                <a href="">
+                                    {{ $art }}
+                                    {{ !$loop->last ? ',' : '' }}
+                                </a>
+                            @endforeach
+                            <p>Written by:</p>
+                        </div>
+                        <div class="box-specs">
+                            <h2>specs</h2>
+                            <p>Series:</p>
+                            <p>U.S. Price:</p>
+                            <p>On Sale Date:</p>
+                        </div>
                     </div>
                 </div>
             </div>
