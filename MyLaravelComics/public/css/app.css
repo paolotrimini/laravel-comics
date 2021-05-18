@@ -89,6 +89,8 @@ header .bottom-header ul li a {
   text-transform: uppercase;
 }
 
+/* HOME PAGE*/
+
 #card {
   padding: 40px;
   background: #1c1c1c;
@@ -118,6 +120,13 @@ header .bottom-header ul li a {
   display: inline-block;
   color: white;
   text-transform: uppercase;
+}
+
+/* ELEMENT PAGE */
+
+.single-page .line-section {
+  height: 60px;
+  background-color: #0282f9;
 }
 
 footer {
