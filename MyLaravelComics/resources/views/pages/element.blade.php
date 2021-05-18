@@ -40,20 +40,28 @@
                     <div class="box-ts">
                         <div class="box-talent">
                             <h2>Talent</h2>
-                            <p>Art by:</p>
-                            @foreach ($elem['artists'] as $art)
-                                <a href="">
-                                    {{ $art }}
-                                    {{ !$loop->last ? ',' : '' }}
-                                </a>
-                            @endforeach
-                            <p>Written by:</p>
+                            <p>Art by:
+                                @foreach ($elem['artists'] as $art)
+                                    <a href="">
+                                        {{ $art }}
+                                        {{ !$loop->last ? ',' : '' }}
+                                    </a>
+                                @endforeach
+                            </p>
+                            <p>Written by:
+                                @foreach ($elem['writers'] as $writ)
+                                    <a href="">
+                                        {{ $writ }}
+                                        {{ !$loop->last ? ',' : '' }}
+                                    </a>
+                                @endforeach
+                            </p>
                         </div>
                         <div class="box-specs">
                             <h2>specs</h2>
-                            <p>Series:</p>
-                            <p>U.S. Price:</p>
-                            <p>On Sale Date:</p>
+                            <p>Series: {{ $elem['type'] }}</p>
+                            <p>U.S. Price: {{ $elem['price'] }}</p>
+                            <p>On Sale Date: {{ $elem['sale_date'] }}</p>
                         </div>
                     </div>
                 </div>
