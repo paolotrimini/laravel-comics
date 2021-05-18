@@ -38,10 +38,18 @@
             <div class="box-info-2">
                 <div class="container">
                     <div class="box-talent">
-                        <p>talent</p>
+                        <h2>Talent</h2>
+                        <p>Art by:</p>
+                        @foreach ($elem['artists'] as $art)
+                            <a href="">
+                                {{ $art }}
+                                {{ !$loop->last ? ',' : '' }}
+                            </a>
+                        @endforeach
                     </div>
                     <div class="box-specs">
-                        <p>specs</p>
+                        <h2>specs</h2>
+                        <p>Written by:</p>
                     </div>
                 </div>
             </div>
