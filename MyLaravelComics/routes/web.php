@@ -13,9 +13,12 @@
     |
     */
 
-    Route::get('/', function () {
-        return view('welcome');
-    });
 
-    Route::get('home', 'TestController@home');
+    Route::get('home', 'TestController@home')
+        ->name('home');
+
+    Route::get('/elem/{index}', 'TestController@element')
+        ->name('elem');
+
+
 

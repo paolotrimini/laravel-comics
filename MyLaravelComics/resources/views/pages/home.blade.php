@@ -2,9 +2,6 @@
 
 
     @section('content')
-        <div class="box-jumbo">
-            <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
-        </div>
         <div id="card">
             <div class="container">
                 <div class="main-box">
@@ -15,7 +12,9 @@
                                     <img src="{{$comics['thumb']}}" alt="">
                                 </div>
                                 <div class="box-text">
-                                    <p>{{$comics['series']}}</p>
+                                    <a href="{{ route('elem', $loop->index)}}">
+                                        <p>{{$comics['series']}}</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>

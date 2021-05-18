@@ -15,7 +15,11 @@
 <body>
 
     @include('components.header')
+        <div class="box-jumbo">
+            <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+        </div>
     @yield('content')
+
     @include('components.footer')
 
 </body>
