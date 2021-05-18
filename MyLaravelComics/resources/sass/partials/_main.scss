@@ -49,16 +49,31 @@
 
     .box-comic {
 
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
         .box-info {
-            background-color: #55ba59;
-            height: 50px;
+            width: 500px;
+
+            .box-title {
+                h1 {
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+            }
+            .box-line {
+                background-color: #55ba59;
+                height: 50px;
+            }
+
         }
 
     }
 
-    .box-poster {
+    .box-adv {
 
-        .box-adv {
+        .box-img {
             width: 200px;
 
             img {

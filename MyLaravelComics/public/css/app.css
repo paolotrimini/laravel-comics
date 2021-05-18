@@ -129,16 +129,31 @@ header .bottom-header ul li a {
   background-color: #0282f9;
 }
 
+.single-page .box-comic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .single-page .box-comic .box-info {
+  width: 500px;
+}
+
+.single-page .box-comic .box-info .box-title h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.single-page .box-comic .box-info .box-line {
   background-color: #55ba59;
   height: 50px;
 }
 
-.single-page .box-poster .box-adv {
+.single-page .box-adv .box-img {
   width: 200px;
 }
 
-.single-page .box-poster .box-adv img {
+.single-page .box-adv .box-img img {
   width: 100%;
 }
 
