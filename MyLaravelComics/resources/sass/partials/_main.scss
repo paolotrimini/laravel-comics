@@ -41,13 +41,31 @@
 /* ELEMENT PAGE */
 
 .single-page {
-    .line-section {
+
+    .box-section {
         height: 60px;
         background-color: #0282f9;
     }
 
     .box-comic {
 
+        .box-info {
+            background-color: #55ba59;
+            height: 50px;
+        }
+
+    }
+
+    .box-poster {
+
+        .box-adv {
+            width: 200px;
+
+            img {
+                width: 100%;
+            }
+
+        }
     }
 
 }

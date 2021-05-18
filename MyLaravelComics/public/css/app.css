@@ -124,9 +124,22 @@ header .bottom-header ul li a {
 
 /* ELEMENT PAGE */
 
-.single-page .line-section {
+.single-page .box-section {
   height: 60px;
   background-color: #0282f9;
+}
+
+.single-page .box-comic .box-info {
+  background-color: #55ba59;
+  height: 50px;
+}
+
+.single-page .box-poster .box-adv {
+  width: 200px;
+}
+
+.single-page .box-poster .box-adv img {
+  width: 100%;
 }
 
 footer {
